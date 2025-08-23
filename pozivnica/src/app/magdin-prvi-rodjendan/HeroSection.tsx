@@ -6,7 +6,7 @@ import Sway from "@/app/magdin-prvi-rodjendan/Sway";
 const HeroSection = () => {
   return (
     <div
-      className="relative w-full h-full min-h-64 mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#eaf0f3]">
+      className="relative w-full h-full min-h-64 mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#568dbd]">
       <Sway dx={"15px"} dy={"5px"} dur={"20s"} delay={"1s"} className={"-left-30 top-0 "}>
         <Balloon />
       </Sway>
@@ -45,7 +45,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div
-        className={"top-[min(530px,70vh)] z-20 absolute flex flex-col justify-center text-center text-3xl gap-2 right-5 font-semibold text-[#cf7868] font-(family-name:--font-cloudy)"}>
+        className={"top-[min(530px,70vh)] z-20 absolute flex flex-col justify-center text-center text-3xl gap-2 right-5 font-semibold text-white font-(family-name:--font-cloudy)"}>
         <h2 className={"text-nowrap text-right"}>
           vas poziva na
         </h2>
