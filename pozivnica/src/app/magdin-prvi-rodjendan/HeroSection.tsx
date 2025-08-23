@@ -5,7 +5,8 @@ import Sway from "@/app/magdin-prvi-rodjendan/Sway";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-svw h-svh mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#eaf0f3]">
+    <div
+      className="relative w-full h-full min-h-64 mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#eaf0f3]">
       <Sway dx={"15px"} dy={"5px"} dur={"20s"} delay={"1s"}>
         <Balloon />
       </Sway>
@@ -27,7 +28,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div
-        className="absolute z-20 flex flex-col justify-center text-center gap-2 bottom-50 translate-y-[65%] left-[50%] -translate-[50%] mt-2 text-4xl md:text-4xl font-semibold text-[#cf7868]">
+        className="absolute z-20 flex flex-col justify-center text-center gap-2 bottom-30 translate-y-[65%] left-[50%] -translate-[50%] mt-2 text-4xl md:text-4xl font-semibold text-[#cf7868]">
         <h2 className={"text-nowrap text-right"}>
           vas poziva na svoj
         </h2>
