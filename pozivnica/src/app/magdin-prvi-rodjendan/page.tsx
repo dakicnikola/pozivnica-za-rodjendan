@@ -1,5 +1,6 @@
 import HeroSection from "@/app/magdin-prvi-rodjendan/HeroSection";
 import Details from "@/app/magdin-prvi-rodjendan/Details";
+import type { Metadata } from "next";
 
 const Page = () => {
   return (
@@ -13,3 +14,8 @@ const Page = () => {
 };
 
 export default Page;
+
+export const metadata: Metadata = {
+  title: "Magdin prvi rodjendan",
+  description: "Pozivnica na žurku",
+};
