@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Balloon = () => {
   return (
-    <div className="absolute w-full aspect-[3/3] z-1 bg-[#eaf0f3]">
+    <div className="absolute h-[450px] w-full aspect-[3/3] z-1 bg-[#eaf0f3]">
       <Image
         src="/ground-bg.png"
         alt=""
