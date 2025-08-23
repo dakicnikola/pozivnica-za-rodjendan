@@ -34,6 +34,8 @@ body {
   75%  { transform: translate(calc(var(--x0, 0px) - var(--dx, 20px)),
   calc(var(--y0, 0px) + var(--dy, 5px))); }
   100% { transform: translate(var(--x0, 0px), var(--y0, 0px)); }
+
+
 }
 
 /* Reusable klasa – koristi CSS varijable za kontrolu */
