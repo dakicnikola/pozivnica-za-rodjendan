@@ -45,7 +45,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div
-        className={"top-[min(530px,70vh)] z-20 absolute flex flex-col justify-center text-center text-3xl gap-2 right-5 font-semibold text-[#cf7868] font-(family-name:--font-cloudy)"}>
+        className={"top-[min(530px,70vh)] z-20 absolute flex flex-col justify-center text-center text-3xl gap-2 right-5 font-semibold text-white font-(family-name:--font-cloudy)"}>
         <h2 className={"text-nowrap text-right"}>
           vas poziva na
         </h2>
