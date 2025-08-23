@@ -17,7 +17,7 @@ const Balloon = () => {
           alt="magda"
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1200px"
-          className="object-contain z-50"
+          className="object-contain z-50 [clip-path:inset(0_0_9%_0)]"
         />
       </div>
     </div>
