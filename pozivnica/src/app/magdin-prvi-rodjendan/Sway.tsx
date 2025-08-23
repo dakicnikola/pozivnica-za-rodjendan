@@ -15,7 +15,7 @@ export function Sway({
 }) {
   return (
     <div
-      className={`z-10 left-0 top-0 right-0 aspect-[3/3] absolute sway ${className}`}
+      className={`z-10 aspect-[1/1] absolute sway ${className}`}
       style={
         {
           "--dx": dx,

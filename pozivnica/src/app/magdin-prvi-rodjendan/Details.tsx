@@ -14,10 +14,17 @@ const Details = () => {
           className={"text-2xl inline-flex items-center gap-2 font-semibold text-[#cf7868] drop-shadow-pink-900"}>
           <HiOutlineClock /> 17h
         </div>
-        <div
-          className={"text-2xl inline-flex items-center gap-2 font-semibold text-[#cf7868] drop-shadow-pink-900"}>
-          <HiOutlineLocationMarker /> Svetolika Mladenovića 7
-        </div>
+        <a
+          href="https://www.google.com/maps?q=44.030717382109465,20.8895243423279"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <div
+            className={"cursor-pointer text-2xl inline-flex items-center gap-2 font-semibold text-[#cf7868] drop-shadow-pink-900"}>
+            <HiOutlineLocationMarker /> Svetolika Mladenovića 7
+          </div>
+        </a>
       </div>
       <GroundBg />
     </div>
