@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Balloon = () => {
   return (
-    <div className="relative mx-auto aspect-[2/2] -left-30 top-20 w-[500px] h-[400px]">
+    <div className="relative mx-auto aspect-[2/2] -left-30 -top-30 w-[500px] h-[400px] scale-250">
       {/*<div className="relative mx-auto aspect-[2/2] -left-30 top-20 scale-200 w-full max-w-sm ">*/}
       <Image
         src="/balloon.png"
