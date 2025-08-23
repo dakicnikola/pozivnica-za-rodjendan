@@ -5,7 +5,7 @@ import { HiOutlineClock, HiOutlineLocationMarker } from "react-icons/hi";
 const Details = () => {
   return (
     <div className="relative w-full mb-0 bg-[#eaf0f3]">
-      <div className={"absolute flex flex-col items-start ml-5 z-20 text-white mt-50"}>
+      <div className={"flex flex-col items-start ml-5 z-20 pb-10"}>
         <div
           className={"text-2xl inline-flex items-center gap-2 font-semibold  drop-shadow-pink-900"}>
           <PiCalendarHeart /> 12. septembar
