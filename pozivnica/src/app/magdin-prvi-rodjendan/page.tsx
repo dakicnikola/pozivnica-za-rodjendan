@@ -1,11 +1,11 @@
 import HeroSection from "@/app/magdin-prvi-rodjendan/HeroSection";
-import GroundBg from "@/app/magdin-prvi-rodjendan/GroundBg";
+import Details from "@/app/magdin-prvi-rodjendan/Details";
 
 const Page = () => {
   return (
-    <section className="overflow-hidden w-svw h-svh bg-[#fbeee9]">
+    <section className="flex flex-col bg-[#fbeee9] overflow-x-hidden">
       <HeroSection />
-      <GroundBg/>
+      <Details />
     </section>
   );
 };

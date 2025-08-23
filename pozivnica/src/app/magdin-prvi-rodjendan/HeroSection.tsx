@@ -5,7 +5,7 @@ import Sway from "@/app/magdin-prvi-rodjendan/Sway";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-full mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#eaf0f3]">
+    <div className="relative w-svw h-svh mb-0 bg-gradient-to-b from-[#fbeee9] via-[#fbeee9] to-[#eaf0f3]">
       <Sway dx={"15px"} dy={"5px"} dur={"20s"} delay={"1s"}>
         <Balloon />
       </Sway>
